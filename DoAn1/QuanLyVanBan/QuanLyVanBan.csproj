@@ -389,6 +389,16 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\LeftMenu.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\VanBanDen\Details.cshtml" />
+    <Content Include="Views\VanBanDen\Index.cshtml" />
+    <Content Include="Views\VanBanDi\Index.cshtml" />
+    <Content Include="Views\VanBanDi\Resend.cshtml" />
+    <Content Include="Views\VanBanDi\Send.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
