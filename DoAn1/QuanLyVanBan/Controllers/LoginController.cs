@@ -15,9 +15,6 @@ namespace QuanLyVanBan.Controllers
         public ActionResult Index()
         {
             return View();
-        }
-
-      
-        
+        }    
     }
 }
