@@ -15,11 +15,22 @@ namespace QuanLyVanBan.Controllers
     {
         private DbContextVB db = new DbContextVB();
         // GET: VanBanDen
-      
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Details()
+        {
+            return View();
+        }
 
 
-      
-       
-      
+
+
+
+
+
     }
 }
