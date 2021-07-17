@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Chuyển tiếp văn bản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-9">
+
+    <div class="row">
+        <div class="col-md-5">
+            <ul class="list-inline shop-top-menu pb-3 pt-1">
+                <li class="list-inline-item">
+                    <a class="h3 text-dark text-decoration-none mr-3" href="#">Chuyển tiếp văn bản</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr />
+
+    <div class="card">
+        <div class="card-header">
+            <strong>Lưu ý</strong>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-primary" role="alert">
+                Chỉ được gửi văn bản tới cấp dưới của mình
+            </div>
+        </div>
+    </div>
+    <br />
+
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <div><label><strong>Chọn đơn vị nhận</strong></label></div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Tên đơn vị" readonly />
+                </div>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <div><label><strong>Chọn người nhận</strong></label></div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Người nhận" readonly />
+
+                </div>
+            </div>
+        </div>
+        <br />
+                
+
+        <div class="form-group text-center" style="margin-top:15px">
+            <input type="submit" value="Gửi văn bản" class="btn btn-success" />
+        </div>
+
+    
+
+</div>

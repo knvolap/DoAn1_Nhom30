@@ -1,0 +1,121 @@
+﻿@{
+    ViewBag.Title = "Gửi văn bản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-9">
+
+    <div class="row">
+        <div class="col-md-5">
+            <ul class="list-inline shop-top-menu pb-3 pt-1">
+                <li class="list-inline-item">
+                    <a class="h3 text-dark text-decoration-none mr-3" href="#">Gửi văn bản</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr />
+
+    <div class="card">
+        <div class="card-header">
+            <strong>Lưu ý</strong>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-primary" role="alert">
+                Chỉ được gửi văn bản tới cấp dưới của mình
+            </div>
+        </div>
+    </div>
+    <br />
+
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <div><label><strong>Chọn đơn vị nhận</strong></label></div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Tên đơn vị" readonly />
+                </div>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <div><label><strong>Chọn người nhận</strong></label></div>
+                <div>
+                    <input type="text" class="form-control" placeholder="Tên người nhận" readonly />
+
+                </div>
+            </div>
+        </div>
+        <br />
+
+
+        <div class="form-group">
+            <div><label>Tiêu đề <font color="red">*</font></label></div>
+            <div class="col-md-12">
+                <label for="" class="pr-1  form-control-label">Tiêu đề</label>
+                <input type="text" class="form-control" placeholder="PHÒNG CHỐNG COVID-19" readonly />
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:5px">
+            <div class="col-md-4">
+                <div><label>Số hiệu văn bản <font color="red">*</font></label></div>
+                <input type="text" class="form-control" placeholder="VB001" readonly />
+            </div>
+
+            <div class="col-md-4">
+                <div><label>Loại văn bản <font color="red">*</font></label></div>
+                <input type="text" class="form-control" placeholder="Khẩn cấp" readonly />
+            </div>
+
+            <div class="col-md-4">
+                <div><label>Độ khẩn <font color="red">*</font></label></div>
+                <input type="text" class="form-control" placeholder="Khẩn cấp" readonly />
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:5px">
+            <div class="col-md-4">
+                <div><label>Ngày ban hành <font color="red">*</font></label></div>
+                <input type="text" class="form-control" placeholder="04/09/2020" readonly />
+            </div>
+
+            <div class="col-md-4">
+                <div><label>Ngày có hiệu lực <font color="red">*</font></label></div>
+                <input type="text" class="form-control" placeholder="04/09/2020" readonly />
+            </div>
+
+            <div class="col-md-4">
+                <div><label>Hạn xử lý</label></div>
+                <input type="text" class="form-control" placeholder="05/09/2020" readonly />
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:5px">
+            <div class="col-md-12">
+                <div><label>Nội dung chính</label></div>
+                <input type="text" class="form-control" placeholder="Tăng cường phòng chống dịch" readonly />
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top:5px">
+            <div class="col-md-6">
+                <div><label>File</label></div>
+                <input type="text" class="form-control" placeholder="" readonly />
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:5px">
+            <div class="col-md-6">
+                <div><label>Người ký tên <font color="red">*</font></label></div>
+                <input type="text" class="form-control" placeholder="Nguyễn Quốc Cường" readonly />
+            </div>
+        </div>
+
+        <div class="form-group text-center" style="margin-top:15px">
+            <input type="submit" value="Gửi văn bản" class="btn btn-success" />
+        </div>
+
+
+</div>
+
+
