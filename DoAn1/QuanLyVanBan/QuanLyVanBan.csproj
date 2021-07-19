@@ -140,11 +140,13 @@
     <Compile Include="Controllers\BasicController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\NhanVienController.cs" />
     <Compile Include="Controllers\VanBanDenController.cs" />
     <Compile Include="Controllers\VanBanDiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -264,23 +266,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Assets\webfonts\fa-brands-400.eot" />
-    <Content Include="Assets\webfonts\fa-brands-400.ttf" />
-    <Content Include="Assets\webfonts\fa-brands-400.woff" />
-    <Content Include="Assets\webfonts\fa-brands-400.woff2" />
-    <Content Include="Assets\webfonts\fa-regular-400.eot" />
-    <Content Include="Assets\webfonts\fa-regular-400.ttf" />
-    <Content Include="Assets\webfonts\fa-regular-400.woff" />
-    <Content Include="Assets\webfonts\fa-regular-400.woff2" />
-    <Content Include="Assets\webfonts\fa-solid-900.eot" />
-    <Content Include="Assets\webfonts\fa-solid-900.ttf" />
-    <Content Include="Assets\webfonts\fa-solid-900.woff" />
-    <Content Include="Assets\webfonts\fa-solid-900.woff2" />
-    <Content Include="Assets\webfonts\slick.eot" />
-    <Content Include="Assets\webfonts\slick.ttf" />
-    <Content Include="Assets\webfonts\slick.woff" />
+    <Content Include="File\dhdn-vp_15.pdf" />
+    <Content Include="File\Tb-dayonline.pdf" />
+    <Content Include="File\2108_QD_BGDDT.pdf" />
+    <Content Include="File\2540_BGDDT_QLCL.pdf" />
+    <Content Include="File\622_TB_BGDDT.pdf" />
+    <Content Include="Assets\Advanced\css\style.css.map" />
+    <Content Include="Assets\Advanced\fonts\icomoon\icomoon.eot" />
+    <Content Include="Assets\Advanced\fonts\icomoon\icomoon.ttf" />
+    <Content Include="Assets\Advanced\fonts\icomoon\icomoon.woff" />
+    <Content Include="Assets\Advanced\scss\style.css.map" />
+    <Content Include="Assets\Advanced\scss\style.scss" />
     <Content Include="Assets\loginform\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
     <Content Include="Assets\loginform\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
     <Content Include="Assets\loginform\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
@@ -356,25 +352,31 @@
     <Content Include="Assets\loginform\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
     <Content Include="Assets\loginform\vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="Assets\loginform\vendor\bootstrap\css\bootstrap.min.css.map" />
-    <Content Include="File\dhdn-vp_15.pdf" />
-    <Content Include="File\Tb-dayonline.pdf" />
-    <Content Include="File\2108_QD_BGDDT.pdf" />
-    <Content Include="File\2540_BGDDT_QLCL.pdf" />
-    <Content Include="File\622_TB_BGDDT.pdf" />
-    <Content Include="Assets\Advanced\css\style.css.map" />
-    <Content Include="Assets\Advanced\fonts\icomoon\icomoon.eot" />
-    <Content Include="Assets\Advanced\fonts\icomoon\icomoon.ttf" />
-    <Content Include="Assets\Advanced\fonts\icomoon\icomoon.woff" />
-    <Content Include="Assets\Advanced\scss\style.css.map" />
-    <Content Include="Assets\Advanced\scss\style.scss" />
+    <Content Include="Assets\webfonts\fa-brands-400.eot" />
+    <Content Include="Assets\webfonts\fa-brands-400.ttf" />
+    <Content Include="Assets\webfonts\fa-brands-400.woff" />
+    <Content Include="Assets\webfonts\fa-brands-400.woff2" />
+    <Content Include="Assets\webfonts\fa-regular-400.eot" />
+    <Content Include="Assets\webfonts\fa-regular-400.ttf" />
+    <Content Include="Assets\webfonts\fa-regular-400.woff" />
+    <Content Include="Assets\webfonts\fa-regular-400.woff2" />
+    <Content Include="Assets\webfonts\fa-solid-900.eot" />
+    <Content Include="Assets\webfonts\fa-solid-900.ttf" />
+    <Content Include="Assets\webfonts\fa-solid-900.woff" />
+    <Content Include="Assets\webfonts\fa-solid-900.woff2" />
+    <Content Include="Assets\webfonts\slick.eot" />
+    <Content Include="Assets\webfonts\slick.ttf" />
+    <Content Include="Assets\webfonts\slick.woff" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -387,13 +389,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="Views\Basic\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -405,8 +403,25 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\NhanVien\Create.cshtml" />
+    <Content Include="Views\NhanVien\Delete.cshtml" />
+    <Content Include="Views\NhanVien\Details.cshtml" />
+    <Content Include="Views\NhanVien\Edit.cshtml" />
+    <Content Include="Views\NhanVien\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\LeftMenu.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\VanBanDen\Details.cshtml" />
+    <Content Include="Views\VanBanDen\Index.cshtml" />
+    <Content Include="Views\VanBanDi\Index.cshtml" />
+    <Content Include="Views\VanBanDi\Resend.cshtml" />
+    <Content Include="Views\VanBanDi\Send.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj">

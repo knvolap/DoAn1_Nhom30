@@ -14,3 +14,19 @@ C:\Users\MAC\source\repos\DoAn1\Models\obj\Debug\Models.csproj.CopyComplete
 C:\Users\MAC\source\repos\DoAn1\Models\obj\Debug\Models.dll
 C:\Users\MAC\source\repos\DoAn1\Models\obj\Debug\Models.pdb
 C:\Users\MAC\source\repos\DoAn1\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\Models.dll.config
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\Models.dll
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\Models.pdb
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\EntityFramework.dll
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\PagedList.dll
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\PagedList.Mvc.dll
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\EntityFramework.xml
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\PagedList.xml
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\bin\Debug\PagedList.Mvc.xml
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\obj\Debug\Models.dll
+D:\Môn học\Năm 3\DA1\DoAn1_Nhom30\DoAn1\Models\obj\Debug\Models.pdb
