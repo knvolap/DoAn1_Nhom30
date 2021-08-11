@@ -43,16 +43,18 @@
             </a>
         </li>
     </ul>
-    @{
-        var session = (QuanLyVanBan.Common.UserLogin)Session[QuanLyVanBan.Common.CommonConstant.USER_SESSION];
-    }
-    @if (session.AuthorID == "PQ03      " || session.AuthorID == "PQ02      " || session.AuthorID == "PQ01      ")
-    {
-         <li class="pb-3">
-        <a class="collapsed d-flex justify-content-between h3 text-decoration-none"  href="/NhanVien/Index">
-            Quản lý nhân viên
-        </a>
-          </li>
+   
+        @{
+            var session = (QuanLyVanBan.Common.UserLogin)Session[QuanLyVanBan.Common.CommonConstant.USER_SESSION];
+        }
+        @if (session.AuthorID == "PQ03      " || session.AuthorID == "PQ02      " || session.AuthorID == "PQ01      ")
+        {
+            <li class="list-unstyled templatemo-accordion">
+                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="/NhanVien/Index">
+                    Quản lý nhân viên
+                </a>
+            </li>
 
-    }
+        }
+   
 </div>
